@@ -2,18 +2,23 @@ import { MY_STACK } from "@/lib/my_stack"
 
 export default function Skills() {
   return (
-    <section id="my-stack" className="py-20 px-8">
-      <h2 className="text-4xl font-bold text-gray-100 mb-12">My Stack</h2>
+    <section id="my-stack" className="py-20 px-8  ">
 
-      <div className="space-y-16">
+      <div className="text-4xl font-bold text-gray-100 mb-12  ">
+        <h1 className="  w-2/4 text-end">My Stack</h1>
+        </div>
+
+      <div className="space-y-16  ">
         {Object.entries(MY_STACK).map(([category, items]) => (
-          <div key={category} className="grid sm:grid-cols-12 gap-6">
+          <div key={category} className="grid sm:grid-cols-12 gap-6  ">
             
             {/* Left Column - Category */}
-            <div className="sm:col-span-5">
-              <p className="text-3xl font-extrabold uppercase text-gray-400">
+            <div className="sm:col-span-5   text-center ">
+              <div className="text-3xl font-extrabold uppercase text-gray-400 flex flex-row-reverse">
+                <p className="  w-3/4 text-start">
                 {category}
-              </p>
+                </p>
+              </div>
             </div>
 
             {/* Right Column - Items */}
