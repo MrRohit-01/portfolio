@@ -2,7 +2,7 @@ import { MY_STACK } from "@/lib/my_stack"
 
 export default function Skills() {
   return (
-    <section id="my-stack" className="py-20 px-8  ">
+    <section id="my-stack" className="py-20 px-5 ">
 
       <div className="text-4xl font-bold text-gray-100 mb-12  ">
         <h1 className="  w-2/4 text-end">My Stack</h1>

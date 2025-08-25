@@ -5,7 +5,7 @@ import { ThemeProvider, useTheme } from "./hooks/useTheme";
 import Navbar from "./components/navbar";
 import CommandDock from "./components/command";
 import Skills from "./components/skills";
-import Projects from "./components/projects";
+import ProjectsSection from "./components/projects";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       {/* <DockDemo/> */}
      <HeroSection/>
      <Skills/>
-     <Projects/>
+     <ProjectsSection/>
     </div>
       {/* <div className="">
       <CommandDock/>
